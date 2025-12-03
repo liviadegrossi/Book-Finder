@@ -21,3 +21,5 @@ The application enables users to search for books by entering a query (Title, Au
   <li>Implement a responsive design</li>
   <li>Add loading animations</li>
 </ul>
+
+<img src="./img/Gemini_Generated_Interface.png" alt="Interface of the bookstore" />
