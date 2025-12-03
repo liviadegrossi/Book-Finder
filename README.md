@@ -8,7 +8,7 @@ The application enables users to search for books by entering a query (Title, Au
 </p>
 
 ### Requirements
-<h3><b>User Stories</b></h3>
+<h4><b>User Stories</b></h4>
 <ul>
   <li>User can enter a search query using an input field</li>
   <li>User can submit the query</li>
@@ -16,7 +16,7 @@ The application enables users to search for books by entering a query (Title, Au
   <li>User can access more information about the book on an external site</li>
 </ul>
 
-<h3><b>Additional features</b></h3>
+<h4><b>Additional features</b></h4>
 <ul>
   <li>Implement a responsive design</li>
   <li>Add loading animations</li>
