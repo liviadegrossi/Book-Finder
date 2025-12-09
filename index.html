@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Reading Oracle Bookstore</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="header__container">
+            <!-- Images are not technically inserted into a web page; they are linked to web pages. -->
+            <!-- The <img> tag creates a holding space for the referenced image -->
+            <img src="./assets/Gemini_Generated_Logo.png" alt="Bookstore logo" width="150" height="150">
+
+            <!-- The <a> tag creates a hyperlink, which is used to link from one page to another -->
+            <!-- The href attribute indicates the link's destination -->
+            <div class="header__itens">
+                <a href="#">Browse</a>
+                <a href="#">New Releases</a>
+                <a href="#">Account</a>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main class="main__container">
+        <h1><strong>Discover Your Next Adventure</strong></h1>
+
+        <form>
+            <input type="search" placeholder="Search">
+            <button type="submit">Search</button>
+        </form>
+
+        <ul class="books__container">
+            <li class="book__item">
+                <img>
+                <h3></h3>
+                <p></p>
+            </li>
+
+        </ul>
+    </main>
+
+    <footer class="footer__container">
+        <section class="footer__item">
+            <a href="https://github.com/liviadegrossi">
+                <img src="./assets/github-mark.png" alt="GitHub logo" width="50" height="50">
+            </a>
+            <a href="https://linkedin.com/in/liviadegrossi">
+                <img src="./assets/LI-In-Bug.png" alt="LinkedIn logo" width="50" height="50">
+            </a>
+        </section>
+        <section class="footer__item">
+            <p>Developed by Lívia Degrossi</p>
+        </section>
+        
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

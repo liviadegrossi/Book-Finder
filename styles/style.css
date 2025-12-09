@@ -1,6 +1,61 @@
-/* 
-    Primary Color (#192F4A): Use for main navigation bars, footers, buttons (the call-to-action color), and important accent elements.
-    Secondary Color (#B69C6D): Use for button hover states, small decorative icons, link accents, or highlighting special deals.
-    Title Color (#294E78): Use for all headings (H1, H2, H3) on the interface.
-    Text Color (#333333): Use for all body text, descriptions, and smaller text elements.
-*/
+:root{
+    --primary-color: #192F4A; /* main navigation bars, footers, buttons (the call-to-action color), and important accent elements. */
+    --secondary-color: #B69C6D; /* button hover states, small decorative icons, link accents, or highlighting special deals */
+    --background-color: #d8c6a4;
+    --title-color: #294E78; /* all headings */
+    --text-color: #333333; /* all body text, descriptions, and smaller text elements */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 18px 42px;
+}
+
+.header__itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    gap: 16px;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    gap: 24px;
+}
+
+h1{
+    color: var(--primary-color);
+    padding-top: 24px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 18px 42px;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
