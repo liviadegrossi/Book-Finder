@@ -43,6 +43,37 @@ h1{
     padding-top: 24px;
 }
 
+.main__search {
+    border: 3px solid var(--secondary-color);
+    border-radius: 4px;
+    width: 360px;
+    height: 36px;
+}
+
+.main__submit{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 4px;
+    width: 56px;
+    height: 36px;
+}
+
+.books__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.book__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid var(--secondary-color);
+    border-radius: 4px;
+}
+
 .footer__container {
     display: flex;
     flex-direction: row;
@@ -57,5 +88,6 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #FFFFFF;
     gap: 16px;
 }
