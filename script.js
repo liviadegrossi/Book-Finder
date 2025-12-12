@@ -1,0 +1,1 @@
+// AmazonAPI https://webservices.amazon.com/paapi5/documentation/
