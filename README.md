@@ -1,6 +1,6 @@
-# Book Finder
+# Books Management
 
-The application enables users to search for books by entering a query (Title, Author, etc.) and displays the resulting books in a list on the page, along with all corresponding data.
+The application enables users to search for books by entering a query (Title, Author, etc.) and displays the resulting books in a list on the page, along with all corresponding data. The application also enables users to create a list of books to be read and those that have already been read.
 
 ### Resource
 <p align="left"> 
@@ -14,6 +14,9 @@ The application enables users to search for books by entering a query (Title, Au
   <li>User can submit the query</li>
   <li>User can see the list of books appearing on the page</li>
   <li>User can access more information about the book on an external site</li>
+  <li>User can save a book in the TBR list</li>
+  <li>User can create a list of read books</li>
+  <li>User can classify a book according to its gender</li>
 </ul>
 
 <h4><b>Additional features</b></h4>
@@ -24,7 +27,7 @@ The application enables users to search for books by entering a query (Title, Au
 
 <h4><b>Interface</b></h4>
 <figure>
-  <img src="./img/Gemini_Generated_Interface.png" alt="Interface of the bookstore" />
+  <img src="./assets/Gemini_Generated_Interface.png" alt="Interface of the bookstore" />
   <figcaption>Interface of the bookstore (Source: Google Gemini)</figcaption>
 </figure>
 
