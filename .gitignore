@@ -1,3 +1,4 @@
-GoogleAPI.json
-
 AmazonAPI/
+GoogleAPI.json
+# Environmental variables
+.env
