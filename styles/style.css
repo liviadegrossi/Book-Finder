@@ -50,6 +50,10 @@ h1{
     height: 36px;
 }
 
+::placeholder {
+    color: var(--secondary-color)
+}
+
 .main__submit{
     background-color: var(--primary-color);
     color: var(--secondary-color);

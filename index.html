@@ -9,12 +9,7 @@
 <body>
     <header>
         <nav class="header__container">
-            <!-- Images are not technically inserted into a web page; they are linked to web pages. -->
-            <!-- The <img> tag creates a holding space for the referenced image -->
             <img src="./assets/Gemini_Generated_Logo.png" alt="Bookstore logo" width="150" height="150">
-
-            <!-- The <a> tag creates a hyperlink, which is used to link from one page to another -->
-            <!-- The href attribute indicates the link's destination -->
             <div class="header__itens">
                 <a href="#">Browse</a>
                 <a href="#">My Library</a>
@@ -27,9 +22,9 @@
     <main class="main__container">
         <h1><strong>Discover Your Next Adventure</strong></h1>
 
-        <form>
-            <input type="search" class="main__search" placeholder="Search">
-            <button type="submit" class="main__submit"><strong>Search</strong></button>
+        <form id="searchForm">
+            <input type="text" class="main__search" placeholder="Search" id="searchTerm" required />
+            <button class="main__submit" accesskey="Enter" id="submitItem">Search</button>
         </form>
 
         <ul class="books__container">
@@ -56,6 +51,7 @@
         </section>
         
     </footer>
+    <script src="GoogleAPI.json"></script>
     <script src="script.js"></script>
 </body>
 </html>
